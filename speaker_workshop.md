@@ -14,7 +14,7 @@ controls: true
 
   - Ashley Hunsberger
   - DeeDee Lavinder
-  - Emily Stamey
+  - Emily Stamey @elstamey
 
   @WWCodeRaleigh
 
@@ -58,16 +58,16 @@ controls: true
 
 # Mainstream Press
 
-- are you mentioned in press releases/news
-- what is newsworthy about you?
+- Are you mentioned in press releases/news
+- What is newsworthy about you?
 
 --
 
 # Affiliations & Relationships
 
-- impressive institution you've been associated with
-- formal education or training
-- company you've worked for
+- Impressive institution you've been associated with
+- Formal education or training
+- Company you've worked for
 
 --
 
@@ -127,9 +127,10 @@ controls: true
 
 # Write Your Bio
 
-- write a short blurb and a longer bio
-- use descriptive language
-- use action verbs
+- Write a short blurb (speaker bio, articles, etc)
+- Write a longer bio (website, blog, etc)
+- Use descriptive language
+- Use action verbs
 - Sound Excited!
 
 --
@@ -139,7 +140,7 @@ controls: true
 - Use the tools you have
 - Quantify with data
 - Invert the negatives
-- give credit to personal experience
+- Give credit to personal experience
 
 --
 
@@ -198,9 +199,8 @@ controls: true
 
 # Lead into topics and ideas for talks
 
---
-
-# Neha's brandin (emily to fill in)
+- Things you can teach
+- Things you want to learn`
 
 --
 
