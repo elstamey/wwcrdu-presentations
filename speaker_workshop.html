@@ -1,0 +1,1113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Preparing Your First Conference Talk</title>
+  <style type="text/css">
+    /* Color Palette Based on Monokai
+
+white       : #fafafa
+light grey  : #efefef
+grey        : #75715e
+dark grey   : #272822
+black       : #191919
+
+light blue  : #66d9ef
+blue        : #1db4d0
+lavender    : #bf79db
+magenta     : #f92672
+light green : #a6e22e
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Hind:400,500,600,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
+
+/* Theme Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  color: #191919;
+  background-color: #000;
+}
+
+/* Custom Slide Styles */
+#slide-1 {
+  color: #fafafa;
+  background: #222;
+  background-size: cover;
+}
+#slide-1::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background: url('background-image.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#slide-1 h1 {
+  text-shadow: 1px 2px 4px #191919;
+}
+
+#slide-1 p {
+  text-shadow: 1px 1px 1px #191919;
+}
+
+.center {
+  text-align: center;
+}
+
+img.badge {
+  height: 128px;
+  width: 128px !important;
+  border-radius: 50% !important;
+}
+
+
+/* The following is needed for the ESC overview slide selection */
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.slides.active .slide:not(.hidden) {
+  border: 22px solid red;
+}
+
+.slide-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  cursor: pointer;
+  display: none;
+}
+
+.slides.active .slide:hover .slide-overlay::before {
+  content: '▶';
+  text-align: center;
+  line-height: 300px;
+  font-size: 200px;
+  color: #fff;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.slides.active .slide:hover .slide-overlay{
+  display: block;
+  background: rgba(0,0,0,0.5);
+}
+.slide-wrapper {
+  margin: 7px;
+  transition: all 250ms;
+}
+
+/* Presentation Styles */
+.slide {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 100px;
+  z-index: 1;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #FFF;
+}
+
+.slide::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background: url('clean-white-polygon-backgrounds-7.jpg') center center no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.slide-content {
+  position: relative;
+  z-index: 2;
+  opacity: 1;
+  max-width: 800px;
+  max-height: 600px;
+  margin: 80px auto 0 auto;
+  padding: 0;
+  font-size: 200%;
+  font-weight: 200;
+  line-height: 1.375;
+  overflow: hidden;
+}
+
+.slide-content img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 3;
+}
+
+.overview {
+  display: inline-block;
+  float: left;
+  color: #C7C7C7;
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.overview:hover {
+  color: #1DB4D0;
+}
+.arrow {
+  float: left;
+  height: 0;
+  width: 0;
+  margin-right: 15px;
+  border: 15px solid #C7C7C7;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.prev {
+  border-top-color: transparent;
+  border-right-width: 25px;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-left-width: 0;
+}
+
+.next {
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-right-width: 0;
+  border-bottom-color: transparent;
+  border-left-width: 25px;
+}
+
+.prev:hover {
+  border-right-color: #1DB4D0;
+  cursor: pointer;
+}
+
+.next:hover {
+  border-left-color: #1DB4D0;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Hind', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin: 170px 0 0;
+  font-size: 300%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 5px 0;
+  font-size: 100%;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1.2;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 15px;
+  font-size: 140%;
+  line-height: 1.2;
+  border-bottom: 1px ridge #191919;
+}
+
+ul {
+  font-weight: 200;
+  line-height: 1.375;
+  padding: 20px 0 0 60px;
+}
+
+blockquote {
+  padding-left: 20px;
+  margin-left: 0;
+  background: #efefef;
+  border-left: 5px solid #272822;
+  border-radius: 0 3px 3px 0;
+}
+
+blockquote p {
+  padding: .5em;
+  color: #272822;
+}
+
+.left {
+  float: left;
+  width: 48%;
+}
+
+.right {
+  float: right;
+  width: 48%;
+}
+
+.author h1 {
+  margin-bottom: 30px;
+  font-size: 170%;
+  font-weight: 200;
+  text-align: center;
+}
+
+.author h3 {
+  font-size: 95%;
+  font-weight: 100;
+  text-align: center;
+  border: none;
+}
+
+.author h3.twitter::before {
+  content: 'Twitter: ';
+}
+
+.author h3.github::before {
+  content: 'Github: ';
+}
+
+.author h3.email::before {
+  content: 'Email: ';
+}
+
+.author h3.url::before {
+  content: 'Web: ';
+}
+
+a {
+  text-decoration: none;
+  color: #1db4d0;
+}
+
+a:hover {
+  color: #1db4d0;
+  border-bottom: 1px solid #1db4d0;
+}
+
+hr {
+  border: 1px solid #272822;
+}
+
+pre {
+  font-size: 75%;
+  line-height: 1.3;
+}
+
+table td,
+table th {
+  padding-right: 3em;
+  text-align: left;
+}
+
+.progress {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  z-index: 2;
+}
+
+.progress-bar {
+  height: 3px;
+  width: 0;
+  background-color: #1DB4D0;
+  -webkit-transition: width .15s ease-out;
+     -moz-transition: width .15s ease-out;
+       -o-transition: width .15s ease-out;
+          transition: width .15s ease-out;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Code Highlighting */
+code {
+  padding: .1em .35em;
+  font-family: 'Inconsolata';
+  background-color: #fafafa;
+  border-radius: 3px;
+}
+
+pre code {
+  display: block;
+  padding: .5em;
+  font-family: 'Inconsolata';
+  font-weight: 400;
+  overflow-y: hidden;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+code.lang-bash-blank{
+  background: #000;
+  color: #fff!important;
+}
+code.lang-bash-blank-small{
+  background: #000;
+  color: #fff!important;
+  font-size: 0.45em;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 6px;
+  box-shadow: inset 0 -4px 0 #bbb;
+}
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+/* Responsiveness */
+@media (max-width: 850px) {
+  body {
+    font-size: 70%;
+  }
+
+  .slide {
+    padding: 50px;
+  }
+
+  .slide-content {
+    width: auto;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 3px;
+  }
+
+  h1 {
+    margin-top: 120px;
+  }
+
+  .prev,
+  .prev:hover {
+    border-right-color: rgba(135, 135, 135, .5);
+  }
+
+  .next,
+  .next:hover {
+    border-left-color: rgba(135, 135, 135, .5);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow: hidden;
+    font-size: 50%;
+  }
+
+  .slide {
+    padding: 10px;
+  }
+  .slide-content {
+    height: 340px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    margin-top: 50px;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  @page {
+    size: letter;
+  }
+
+  .hidden {
+    display: inline;
+  }
+
+  html {
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+  }
+
+  body {
+    float: none !important;
+    padding: 0;
+    margin: 0 auto !important;
+    overflow: visible;
+    font-size: 52%;
+    background: none !important;
+    border: 0;
+  }
+
+  .progress,
+  .controls {
+    display: none;
+  }
+
+  .slide {
+    position: static;
+  }
+
+  .slide-content {
+    margin-top: 0;
+    margin-bottom: 40px;
+    height: 3.5in;
+    overflow: visible;
+    border: 1px solid #222;
+
+  }
+
+  .slide:nth-child(even) {
+    /* 2 slides per page */
+    page-break-before: always;
+  }
+}
+
+  </style>
+    <script async src="http://localhost:35729/livereload.js"></script>
+</head>
+<body>
+    <div class="progress">
+    <div class="progress-bar"></div>
+  </div>
+
+<div class="slides">
+    <div class="slide-wrapper">
+      <div class="slide" id="slide-1">
+        <div data-id="1" class="slide-overlay"></div>
+        <section class="slide-content"><h1 id="preparing-your-first-conference-talk-">Preparing Your First Conference Talk!</h1>
+<ul>
+<li>Ashley Hunsberger</li>
+<li>DeeDee Lavinder</li>
+<li><p>Emily Stamey</p>
+<p>@WWCodeRaleigh</p>
+</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-2">
+        <div data-id="2" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="what-we-ll-cover-">What we&#39;ll cover:</h2>
+<ul>
+<li>What does an Event look like?</li>
+<li>The Event Store</li>
+<li>How do we create events?</li>
+<li>We have events, now what?</li>
+<li>A short example of how it could work</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-3">
+        <div data-id="3" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="what-does-an-event-look-like-">What Does an Event Look Like?</h2>
+<ul>
+<li>An Event is a Class named for the thing that happened</li>
+<li>The event contains attributes that are relevant to that event</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-4">
+        <div data-id="4" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-sessiondiscovered">Event: SessionDiscovered</h2>
+<ul>
+<li>after validation to determine whether we have a valid session, we log a new event</li>
+</ul>
+<h3 id="new-sessiondiscovered-attributes-we-need-to-know-">new SessionDiscovered( attributes we need to know )</h3>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-5">
+        <div data-id="5" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-sessiondiscovered">Event: SessionDiscovered</h2>
+<ul>
+<li>session id</li>
+<li>start time</li>
+<li>protocol</li>
+<li>source ip</li>
+<li>destination ip</li>
+<li>source port</li>
+<li>destination port</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-6">
+        <div data-id="6" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-sessionscored">Event: SessionScored</h2>
+<ul>
+<li>session id</li>
+<li>threat contributor </li>
+<li>score</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-7">
+        <div data-id="7" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-filescored">Event: FileScored</h2>
+<ul>
+<li>after validation that a file has matched a signature, we log a new event</li>
+</ul>
+<h3 id="new-filescored-attributes-we-need-to-know-">new FileScored( attributes we need to know )</h3>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-8">
+        <div data-id="8" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-filescored">Event: FileScored</h2>
+<ul>
+<li>file id</li>
+<li>session id</li>
+<li>integration</li>
+<li>score</li>
+<li>signature that found it</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-9">
+        <div data-id="9" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-filerescored">Event: FileRescored</h2>
+<ul>
+<li>after validation that a file has matched a signature and that it has been scored before\n- we log a new event</li>
+</ul>
+<h3 id="new-filerescored-attributes-we-need-to-know-">new FileRescored( attributes we need to know )</h3>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-10">
+        <div data-id="10" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-filerescored">Event: FileRescored</h2>
+<ul>
+<li>file id</li>
+<li>session id</li>
+<li>integration</li>
+<li>new score</li>
+<li>signature that found it</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-11">
+        <div data-id="11" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="event-store-holds-all-events">Event Store holds <em>all</em> events</h2>
+<ul>
+<li>a DB with each row being a Domain Message</li>
+<li>Each Event is the payload of the Domain Message</li>
+<li>The Domain Message has a uuid, timestamp, type, payload (the event itself), and version (if needed)</li>
+<li>this means we can store all events in the same place regardless of the program that logs the event or handles them</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-12">
+        <div data-id="12" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="listeners">Listeners</h2>
+<ul>
+<li>we write listeners for each of the events we care about in a given context</li>
+<li>the listeners view the whole event store but cull the events by their type</li>
+<li>the types of structures that have listeners are projections and aggregate roots</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-13">
+        <div data-id="13" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="projector">Projector</h2>
+<ul>
+<li>a class </li>
+<li>its apply methods contain the logic of what an event means</li>
+<li>writes information to the table that we will need later</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-14">
+        <div data-id="14" class="slide-overlay"></div>
+        <section class="slide-content"><p><img src="../img/status_change/projector.png" alt="Projectors"></p>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-15">
+        <div data-id="15" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="projection-session">Projection: Session</h2>
+<ul>
+<li>listens for SessionDiscovered events<ul>
+<li>creates a new row in a table with the session details and a null score</li>
+</ul>
+</li>
+<li>listens for SessionScored events<ul>
+<li>finds the session in the table and updates the score and score contributor</li>
+</ul>
+</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden  " id="slide-16">
+        <div data-id="16" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="projection-report-for-top-threats-by-hash">Projection: Report for Top Threats by Hash</h2>
+<ul>
+<li>listens for FileScored and FileRescored Events<ul>
+<li>looks up details of file by the file id</li>
+<li>adds a row to table with <ul>
+<li>file id</li>
+<li>file md5 hash</li>
+<li>the filename</li>
+<li>file type</li>
+<li>the score</li>
+<li>signature that scored it</li>
+<li>source ip</li>
+<li>destination ip</li>
+<li>protocol</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-17">
+        <div data-id="17" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="read-model">Read Model</h2>
+<ul>
+<li>a class</li>
+<li>it contains methods for looking up information from the projection</li>
+<li>ex: look up the history for a certain file, all of its scores</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-18">
+        <div data-id="18" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="read-model-top-threats">Read Model: Top Threats</h2>
+<p>methods: </p>
+<ul>
+<li><p>top 10 threats by the file hash</p>
+<ul>
+<li>this excludes hits I&#39;m not allowed to see by the signature that did the scoring</li>
+<li>gets a current hit count of only the records I can see</li>
+</ul>
+</li>
+<li><p>top threats by file type</p>
+</li>
+<li>top threats by source/destination ip pairs</li>
+<li>top threats by protocol</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden" id="slide-19">
+        <div data-id="19" class="slide-overlay"></div>
+        <section class="slide-content"><h2 id="good-stuff-">Good Stuff!</h2>
+<ul>
+<li>works well in our environment where we have multiple applications doing different things</li>
+<li>full audit log of what has happened in our environment</li>
+<li>the results of those events can be optimized for read to shorten the time to retrieve data</li>
+<li>separate the logic of what an event means based on context and purpose</li>
+<li>only display results that a user is allowed to see</li>
+<li>flexible to change, our interpretation of events can change, and we can rebuild projections without losing the full history</li>
+</ul>
+</section>
+      </div>
+    </div>
+    <div class="slide-wrapper">
+      <div class="slide hidden author-slide" id="slide-20">
+        <div data-id="20" class="slide-overlay"></div>
+        <section class="slide-content"><div class="author">
+  <h1 class="name">Ashley Hunsberger, DeeDee Lavinder, Emily Stamey</h1>
+    <h3 class="twitter">
+      <a href="http://twitter.com/@WWCodeRaleigh">@WWCodeRaleigh</a>
+    </h3>
+    <h3 class="url">
+      <a href="https://www.womenwhocode.com/raleigh-durham">https://www.womenwhocode.com/raleigh-durham</a>
+    </h3>
+</div>
+</section>
+      </div>
+    </div>
+</div>
+
+  <div class="controls">
+    <div class="arrow prev"></div>
+    <div class="overview">☷</div>
+    <div class="arrow next"></div>
+  </div>
+
+
+  <script type="text/javascript">
+    /**
+ * Returns the current page number of the presentation.
+ */
+function currentPosition() {
+  return parseInt(document.querySelector('.slide:not(.hidden)').id.slice(6));
+}
+
+/**
+ * Navigates forward n pages
+ * If n is negative, we will navigate in reverse
+ */
+function navigate(n) {
+  var position = currentPosition();
+  var numSlides = document.getElementsByClassName('slide').length;
+
+  var $fragments = document.querySelectorAll('#slide-' + position + ' .fragment');
+  var fragmentsFinished = false;
+  if ($fragments.length) {
+    if (n > 0) {
+      var $f = document.querySelectorAll('#slide-' + position + ' .fragment.hidden');
+      if (!$f.length) fragmentsFinished = true;
+      else $f[0].classList.remove('hidden');
+    } else {
+      var $f = document.querySelectorAll('#slide-' + position + ' .fragment:not(.hidden)');
+      if (!$f.length) fragmentsFinished = true;
+      else $f[$f.length - 1].classList.add('hidden');
+    }
+  } else {
+    fragmentsFinished = true;
+  }
+
+  if (fragmentsFinished) {
+    /* Positions are 1-indexed, so we need to add and subtract 1 */
+    var nextPosition = (position - 1 + n) % numSlides + 1;
+
+    /* Normalize nextPosition in-case of a negative modulo result */
+    nextPosition = (nextPosition - 1 + numSlides) % numSlides + 1;
+
+    document.getElementById('slide-' + position).classList.add('hidden');
+    document.getElementById('slide-' + nextPosition).classList.remove('hidden');
+
+    updateProgress();
+    updateURL();
+    updateTabIndex();
+  }
+
+}
+
+/**
+ * Updates the current URL to include a hashtag of the current page number.
+ */
+function updateURL() {
+  try {
+    window.history.replaceState({}, null, '#' + currentPosition());
+  } catch (e) {
+    window.location.hash = currentPosition();
+  }
+}
+
+/**
+ * Sets the progress indicator.
+ */
+function updateProgress() {
+  var progressBar = document.querySelector('.progress-bar');
+
+  if (progressBar !== null) {
+    var numSlides = document.getElementsByClassName('slide').length;
+    var position = currentPosition() - 1;
+    var percent = (numSlides === 1) ? 100 : 100 * position / (numSlides - 1);
+    progressBar.style.width = percent.toString() + '%';
+  }
+}
+
+/**
+ * Removes tabindex property from all links on the current slide, sets
+ * tabindex = -1 for all links on other slides. Prevents slides from appearing
+ * out of control.
+ */
+function updateTabIndex() {
+  var allLinks = document.querySelectorAll('.slide a');
+  var position = currentPosition();
+  var currentPageLinks = document.getElementById('slide-' + position).querySelectorAll('a');
+  var i;
+
+  for (i = 0; i < allLinks.length; i++) {
+    allLinks[i].setAttribute('tabindex', -1);
+  }
+
+  for (i = 0; i < currentPageLinks.length; i++) {
+    currentPageLinks[i].removeAttribute('tabindex');
+  }
+}
+
+/**
+ * Determines whether or not we are currently in full screen mode
+ */
+function isFullScreen() {
+  return document.fullscreenElement ||
+    document.mozFullScreenElement ||
+    document.webkitFullscreenElement ||
+    document.msFullscreenElement;
+}
+
+/**
+ * Toggle fullScreen mode on document element.
+ * Works on chrome (>= 15), firefox (>= 9), ie (>= 11), opera(>= 12.1), safari (>= 5).
+ */
+function toggleFullScreen() {
+  /* Convenient renames */
+  var docElem = document.documentElement;
+  var doc = document;
+
+  docElem.requestFullscreen =
+    docElem.requestFullscreen ||
+    docElem.msRequestFullscreen ||
+    docElem.mozRequestFullScreen ||
+    docElem.webkitRequestFullscreen.bind(docElem, Element.ALLOW_KEYBOARD_INPUT);
+
+  doc.exitFullscreen =
+    doc.exitFullscreen ||
+    doc.msExitFullscreen ||
+    doc.mozCancelFullScreen ||
+    doc.webkitExitFullscreen;
+
+  isFullScreen() ? doc.exitFullscreen() : docElem.requestFullscreen();
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Update the tabindex to prevent weird slide transitioning
+  updateTabIndex();
+
+  // If the location hash specifies a page number, go to it.
+  var page = window.location.hash.slice(1);
+  if (page) {
+    navigate(parseInt(page) - 1);
+  }
+
+  document.onkeydown = function(e) {
+    if(e.target.tagName.toLowerCase() === 'textarea') return;
+    var kc = e.keyCode;
+
+    // left, down, H, J, backspace, PgUp - BACK
+    // up, right, K, L, space, PgDn - FORWARD
+    // enter - FULLSCREEN
+    if (kc === 37 || kc === 40 || kc === 8 || kc === 72 || kc === 74 || kc === 33) {
+      navigate(-1);
+    } else if (kc === 38 || kc === 39 || kc === 32 || kc === 75 || kc === 76 || kc === 34) {
+      navigate(1);
+    } else if (kc === 13) {
+      toggleFullScreen();
+    } else if (kc === 27) {
+      toggleOverview();
+    }
+  };
+
+  if (document.querySelector('.next') && document.querySelector('.prev')) {
+    document.querySelector('.next').onclick = function(e) {
+      e.preventDefault();
+      navigate(1);
+    };
+
+    document.querySelector('.prev').onclick = function(e) {
+      e.preventDefault();
+      navigate(-1);
+    };
+  }
+  if (document.querySelector('.overview')) {
+    document.querySelector('.overview').onclick = function(e) {
+      toggleOverview();
+    }
+  }
+  var $overlays = document.querySelectorAll('.slide-overlay');
+  [].forEach.call($overlays, function($overlay) {
+    $overlay.onclick = function(event) {
+      navigate(parseInt(event.target.dataset.id) - currentPosition());
+      toggleOverview();
+    }
+  });
+
+  var $fragments = document.querySelectorAll('.fragment');
+  [].forEach.call($fragments, function($fragment) {
+    $fragment.classList.add('hidden');
+  });
+
+});
+
+function toggleOverview() {
+  if (window.$style !== undefined) {
+    window.$style.remove();
+    delete window.$style;
+    document.querySelector('.slides').classList.remove('active');
+  } else {
+    var $slides = document.querySelector('.slides');
+    $slides.classList.add('active');
+    var slidesList = document.querySelectorAll('.slide-wrapper');
+
+    var w = window,
+      d = document,
+      e = d.documentElement,
+      g = d.getElementsByTagName('body')[0],
+      x = w.innerWidth || e.clientWidth || g.clientWidth,
+      y = w.innerHeight || e.clientHeight || g.clientHeight;
+
+    window.$style = document.createElement('style');
+    window.$style.innerHTML = '.slide-wrapper {width: ' + (x * 0.25) + 'px; height: ' + (y * 0.25) + 'px; } body .slide {width: ' + x + 'px; height: ' + y + 'px; position: relative; transform: scale(0.25,0.25); transform-origin: 0 0; } .slide.hidden{display: block; }';
+
+    document.getElementsByTagName('head')[0].appendChild(window.$style);
+  }
+}
+  </script>
+</body>
+</html>
