@@ -222,6 +222,7 @@ controls: true
 - Takeaways
 - The title is important
 - Readability
+- Timeframe
 - Proofread
 - https://twitter.com/friendlytester/status/962782536089956352 
 
@@ -258,26 +259,35 @@ controls: true
 
 --
 
+# Timeframe
+
+- How long is your talk?
+- Will it fit in a 30 minute slot?
+
+--
+
 # Proofread!
 
 - Have you read your abstract?
 - Read it again. Now do it one more time!
 
 --
-# Make an abstract!
+# Write a talk proposal!
 
-- Title
-- Audience
-- Takeaways
-- Flow
+- 3 minutes to brainstorom a proposal for a 30-minute presentation
+- Start writing proposal, following worksheet
+- 5 minutes
 
 --
 
 # Give/Get Feedback
 
-- Actionable
-- Specific
-- Kind
+- Actionable, Specific, and Kind
+- Can you identify what the talk is about?
+- Can you identify the takeaways?
+- Does it have enough relevance to the attendees?
+- Will this talk fit in the allotted timeframe?
+- RESOURCE: Paper. 
 
 --
 
