@@ -218,12 +218,66 @@ controls: true
 
 # Tips for a good Abstract
 
+- Relevance
+- Takeaways
+- The title is important
+- Readability
+- Proofread
+- https://twitter.com/friendlytester/status/962782536089956352 
+
+--
+
+# Relevance
+
+- Is it targeted to the conference and the audience?
+- Is it unique? Why is your talk better than the other 40 submissions on this topic?
+- Is the topic current?
+
+--
+
+# Takeaways
+
+- What will I learn?
+- What can attendees take back to work?
+
+--
+
+# The Title
+
+- The first thing reviewers see
+- Sets the scene for the rest of the abstract
+- Positivity! 
+
+--
+
+# Readability
+
+- Does it flow? Do you jump around too much? 
+- Does it have a beginning, middle and end?
+- Keep it concise. Make your words count.
+
+--
+
+# Proofread!
+
+- Have you read your abstract?
+- Read it again. Now do it one more time!
+
+--
+# Make an abstract!
+
+- Title
+- Audience
+- Takeaways
+- Flow
 
 --
 
 # Give/Get Feedback
 
-Actionable. Specific. Kind.
+- Actionable
+- Specific
+- Kind
 
 --
 
