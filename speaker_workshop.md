@@ -223,7 +223,7 @@ controls: true
 
 # Give/Get Feedback
 
-- Actionable. Specific. Kind.
+Actionable. Specific. Kind.
 
 --
 
