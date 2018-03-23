@@ -3,7 +3,7 @@ author:
   name: Ashley Hunsberger, DeeDee Lavinder, Emily Stamey
   twitter: WWCodeRaleigh
   url: https://www.womenwhocode.com/raleigh-durham
-theme: select/cleaver-select-theme
+theme: elstamey/reveal-cleaver-theme
 style: basic-style.css
 output: speaker_workshop.html
 controls: true
@@ -12,15 +12,38 @@ controls: true
 
 # Preparing Your First Conference Talk!
 
-  - Ashley Hunsberger
+  - Ashley Hunsberger @aahunsberger
   - DeeDee Lavinder
   - Emily Stamey @elstamey
 
-  @WWCodeRaleigh
+    @WWCodeRaleigh
+
+![WWCRDU logo](./WWCode_Logo_Raleigh_Durham.png)
 
 --
 
-# Introduction & mixer
+![WWCRDU logo](./WWCode_Logo_Raleigh_Durham.png)
+
+--
+# Mixer ideas
+
+- What kind of shoes are you wearing?
+- What is your favorite
+- Where did you live when you took your first tech job?
+- What is your favorite conference?
+- What is your favorite language or technology?
+
+--
+
+# Let's sit down and get started
+
+--
+
+# Resources for today
+
+[http://github.com/elstamey/wwcrdu-presentations](http://github.com/elstamey/wwcrdu-presentations)
+
+[Join us on Slack](https://docs.google.com/forms/d/e/1FAIpQLSctj9HJr-5yadDbKYygBYBfNUWmjgODlkp8lgLou26AedIkuQ/viewform)
 
 --
 
@@ -30,6 +53,7 @@ controls: true
 
 # Bio Prompts
 
+- Clear your mind
 - We are going to give you prompts
 - Fill them in as best as you can
 - You can come back to these later to write your bio
@@ -40,7 +64,7 @@ controls: true
 
 --
 
-# Write 5 TECH things you can teach
+# Write 5 things you can teach
 
 --
 
@@ -58,7 +82,7 @@ controls: true
 
 # Mainstream Press
 
-- Are you mentioned in press releases/news
+- Are you mentioned in a press release/news?
 - What is newsworthy about you?
 
 --
@@ -75,10 +99,6 @@ controls: true
 
 --
 
-# What Roles Have You Worked?
-
---
-
 # What are Your Skills?
 
 - languages
@@ -88,6 +108,10 @@ controls: true
 --
 
 # What Are Your Strengths?
+
+--
+
+# What Roles Have You Worked?
 
 --
 
@@ -102,24 +126,51 @@ controls: true
 
 ## What’s Your Unique VALUE PROPOSITION?
 
-- Whoever is consuming what you’re giving needs to know what they will get from you?
+-fragment Whoever is consuming what you’re giving needs to know what they will get from you?
 - What can you uniquely give to the world based on what you’ve done?
 - What is the lens through which your content is filtered?
 
 --
 
-# What are Challenges You Have Faced/Overcome?
+## What are Challenges You Have Faced/Overcome?
 
 - What did you learn?
 - What strengthened and reinforced your roots?
 
 --
+# Branding Yourself
 
-# Review Your List of Lists
+[Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
+
+--
+
+# What 3 words do you want people to use to describe you?
+
+--
+
+# Write to 3 people you work with
+
+- Ask them to use 3 words to describe you
+
+`I'm in the middle of a talk, and I need you to tell me this. What are my top three qualities?`
+
+--
+
+# Compare Their 3 Words With Yours
+
+- What could you do more of to represent a word they didn't use to describe you?
+
+--
+
+# Crafting your Bio
+
+--
+
+## Review Your List of Lists
 
 - Use a highlighter
-- Excited
-- Proud
+- What makes you excited?
+- What makes you proud?
 - What do you want to use in the future?
 - Are there any recurring themes/threads?
 
@@ -162,9 +213,9 @@ controls: true
 
 # Be Specific
 
-- I’ve been a for x years
+- I’ve been a ____ for x years
 - I organize
-- Recently i’ve been
+- Recently I’ve been
 
 --
 
@@ -172,47 +223,64 @@ controls: true
 
 --
 
-# Branding Yourself
-
-[Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
-
 --
 
-# What 3 words do you want people to use to describe you?
-
---
-
-# Write to 3 people you work with
-
-- Ask them to use 3 words to describe you
-
-`I'm in the middle of a talk, and I need you to tell me this. What are my top three qualities?`
-
---
-
-# Compare Their 3 Words With Yours
-
-- What could you do more of to represent a word they didn't use to describe you?
-
-
---
-
-# Lead into topics and ideas for talks
+# Topics and ideas for talks
 
 - Things you can teach
 - Things you want to learn`
+- A story about something you or your team did
+- Something you've accomplished
 
 --
 
 # Lunch
 
---
-
-# possible mixer again?
+![sponsored by Spreedly](spreedly.png)
 
 --
 
 # Call for Papers.  What does that mean?
+
+--
+
+# Call For Papers
+
+- Have a deadline for submissions (time zones are important)
+- Some conferences accept talks while the CFP is open
+- Submissions are reviewed by a committee, sometimes blindly
+- Keynotes are often decided outside of CFP
+
+--
+
+# Speaker Package
+
+** Read it carefully **
+- May provide hotel and airfare
+- May offer reimbursement up to an amount
+  - Pay attention to how they will reimburse
+
+--
+
+# You submit an abstract
+
+- Provide a description of your talk
+  - if accepted, this is put on the conference website
+
+--
+
+# Other info
+
+- Often a notes section
+  - past or upcoming speaker experience
+  - additional description of your talk
+  - Learning Objectives (attendees will learn...)
+- Do you need travel assistance?  **YES!**
+- Give airport code
+
+--
+
+# The abstract
 
 --
 
@@ -256,6 +324,7 @@ controls: true
 - Does it flow? Do you jump around too much? 
 - Does it have a beginning, middle and end?
 - Keep it concise. Make your words count.
+  - Use action verbs
 
 --
 
@@ -307,6 +376,6 @@ controls: true
 
 # Resources
 
-- HelpMeAbstract.com
-- SpeakingEasy
+- [HelpMeAbstract.com](HelpMeAbstract.com)
+- [SpeakingEasy](http://speaking-easy.com/)
 - Rubric for Abstract (to get from AshleyH or AshleyPQP)
