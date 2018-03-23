@@ -3,7 +3,7 @@ author:
   name: Ashley Hunsberger, DeeDee Lavinder, Emily Stamey
   twitter: WWCodeRaleigh
   url: https://www.womenwhocode.com/raleigh-durham
-theme: select/cleaver-select-theme
+theme: elstamey/reveal-cleaver-theme
 style: basic-style.css
 output: speaker_workshop.html
 controls: true
