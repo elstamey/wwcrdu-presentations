@@ -3,8 +3,8 @@ author:
   name: Ashley Hunsberger, DeeDee Lavinder, Emily Stamey
   twitter: WWCodeRaleigh
   url: https://www.womenwhocode.com/raleigh-durham
-theme: elstamey/reveal-cleaver-theme
-style: basic-style.css
+theme: select/cleaver-select-theme
+style: basic_style.css
 output: speaker_workshop.html
 controls: true
 
@@ -15,7 +15,6 @@ controls: true
   - Ashley Hunsberger @aahunsberger
   - DeeDee Lavinder
   - Emily Stamey @elstamey
-
     @WWCodeRaleigh
 
 ![WWCRDU logo](./WWCode_Logo_Raleigh_Durham.png)
@@ -28,7 +27,7 @@ controls: true
 # Mixer ideas
 
 - What kind of shoes are you wearing?
-- What is your favorite
+- What is your favorite color?
 - Where did you live when you took your first tech job?
 - What is your favorite conference?
 - What is your favorite language or technology?
