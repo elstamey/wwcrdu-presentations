@@ -125,7 +125,7 @@ controls: true
 
 ## What’s Your Unique VALUE PROPOSITION?
 
--fragment Whoever is consuming what you’re giving needs to know what they will get from you?
+- Whoever is consuming what you’re giving needs to know what they will get from you?
 - What can you uniquely give to the world based on what you’ve done?
 - What is the lens through which your content is filtered?
 
