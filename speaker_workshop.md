@@ -324,6 +324,7 @@ controls: true
 - Does it flow? Do you jump around too much? 
 - Does it have a beginning, middle and end?
 - Keep it concise. Make your words count.
+  - Use action verbs
 
 --
 
@@ -375,6 +376,6 @@ controls: true
 
 # Resources
 
-- HelpMeAbstract.com
-- SpeakingEasy
+- [HelpMeAbstract.com](HelpMeAbstract.com)
+- [SpeakingEasy](http://speaking-easy.com/)
 - Rubric for Abstract (to get from AshleyH or AshleyPQP)
