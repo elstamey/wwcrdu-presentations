@@ -140,6 +140,8 @@ controls: true
 # Branding Yourself
 
 [Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
+[slides](https://www.slideshare.net/NehaBatra5/personal-branding-is-more-than-self-promotion-81439467)
+[blog](https://builttoadapt.io/why-a-personal-brand-is-necessary-for-todays-developer-f0f18bfaa033)
 
 --
 
