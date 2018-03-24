@@ -125,7 +125,7 @@ controls: true
 
 ## What’s Your Unique VALUE PROPOSITION?
 
--fragment Whoever is consuming what you’re giving needs to know what they will get from you?
+- Whoever is consuming what you’re giving needs to know what they will get from you?
 - What can you uniquely give to the world based on what you’ve done?
 - What is the lens through which your content is filtered?
 
@@ -140,6 +140,8 @@ controls: true
 # Branding Yourself
 
 [Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
+[slides](https://www.slideshare.net/NehaBatra5/personal-branding-is-more-than-self-promotion-81439467)
+[blog](https://builttoadapt.io/why-a-personal-brand-is-necessary-for-todays-developer-f0f18bfaa033)
 
 --
 
