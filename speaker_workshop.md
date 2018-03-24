@@ -4,7 +4,7 @@ author:
   twitter: WWCodeRaleigh
   url: https://www.womenwhocode.com/raleigh-durham
 theme: elstamey/reveal-cleaver-theme
-style: basic_style.css
+style: css/my-style.css
 output: speaker_workshop.html
 controls: true
 

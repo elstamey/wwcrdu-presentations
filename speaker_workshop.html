@@ -1669,6 +1669,158 @@ body {
     -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
     transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
+
+blockquote.style4 {
+    font: 1em/1.5em Gotham-Italic serif;
+    padding-left: 70px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 10px;
+    background-color: #dadada;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    background-image: url('../img/boots/openquote4.gif');
+    background-position: middle left;
+    background-repeat: no-repeat;
+    text-indent: 23px;
+}
+
+html.dimbg .slide-background {
+    opacity: 0.5 !important;
+}
+
+.reveal .slide-background.present {
+    background-size: 80%;
+    display: block;
+
+}
+
+/* Full bleed image */
+section.titleblock {
+    margin-left: -100px;
+    margin-top: 1em;
+    background: rgba(255,255,2555,0.8);
+}
+
+h3.title {
+    font-weight: bolder;
+}
+
+
+/* Flexbox section*/
+
+myTitleBox {
+    /*background: purple;*/
+    height: 100px;
+}
+
+footer {
+    /*background: red;*/
+    /*height: 100px;*/
+}
+
+myColBox {
+    display: flex;
+    flex-wrap: nowrap;
+    /*background: aqua;*/
+    flex-direction: row;
+}
+
+myRowBox {
+    /*background: teal;*/
+    flex-basis: auto;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+myColBox > article {
+    flex: 1;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+}
+
+myRowBox > article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+myRowBox > article > img {
+    margin: auto;
+    width: 100%;
+    max-width: 50% !important;
+    max-height:50% !important;
+}
+
+
+myColBox > article > img {
+    margin: auto;
+    width: 100%;
+    max-width: 70% !important;
+    max-height: 70% !important;
+
+}
+
+h5.attrib {
+    font-size: large;
+    text-align: right;
+    position: relative;
+    float: right;
+}
+
+h5.attrib a,
+h5.attrib a:hover {
+    color: black;
+}
+
+/*
+    Code Fragment Highlighting styles
+ */
+.line { display: block; }
+.line.hover { background: yellow; }
+
+.line.focus {
+    background: yellow;
+    color: black;
+}
+
+.line.focus .hljs-comment, .line.focus .hljs-quote {
+    color: #586e75;
+}
+
+.slides {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.reveal .slides section .fragment.current-only {
+    opacity: 1;
+    visibility: visible;
+    display: none;
+}
+.reveal .slides section .fragment.current-only.current-fragment {
+    display: block;
+}
+
+.reveal .footer {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    font-size: 0.5em;
+}
+
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
   </style>
 </head>
 <body>
