@@ -69,7 +69,7 @@ Agenda (this is our plan, we may adjust):
 
 9:15-9:30am Introductions
 9:30 Brainstorming, Bio writing
-11:00 lunch
+11:00 lunch 
 12:00 Calls for Papers (CFPs) and Writing a good abstract
 1:30-2:30 Write abstract and lightening talk - a pitch for your abstract
 2:30-4 Give your lightening talk
@@ -304,7 +304,9 @@ Ask them to use 3 words to describe you
 # You submit an abstract
 
 - Provide a description of your talk
-  - if accepted, this is put on the conference website
+- if accepted, this is put on the conference website
+
+![Please Please Please](img/PleasePleasePlease.gif)
 
 --
 
