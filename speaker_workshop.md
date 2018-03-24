@@ -13,7 +13,7 @@ controls: true
 # Preparing Your First Conference Talk!
 
   - Ashley Hunsberger @aahunsberger
-  - DeeDee Lavinder
+  - DeeDee Lavinder @ddlavinder
   - Emily Stamey @elstamey
     @WWCodeRaleigh
 
@@ -24,13 +24,28 @@ controls: true
 ![WWCRDU logo](./WWCode_Logo_Raleigh_Durham.png)
 
 --
-# Mixer ideas
 
-- What kind of shoes are you wearing?
-- What is your favorite color?
-- Where did you live when you took your first tech job?
-- What is your favorite conference?
-- What is your favorite language or technology?
+# What kind of shoes are you wearing?
+
+--
+
+# What is your favorite color?
+
+--
+
+# How many tattoos or piercings do you have?
+
+--
+
+# Where did you live when you took your first tech job?
+
+--
+
+# What is your favorite conference?
+
+--
+
+# What is your favorite language or technology?
 
 --
 
@@ -43,6 +58,28 @@ controls: true
 [http://github.com/elstamey/wwcrdu-presentations](http://github.com/elstamey/wwcrdu-presentations)
 
 [Join us on Slack](https://docs.google.com/forms/d/e/1FAIpQLSctj9HJr-5yadDbKYygBYBfNUWmjgODlkp8lgLou26AedIkuQ/viewform)
+
+Join the `#raleigh-durham` channel
+
+--
+
+# Branding Yourself
+
+- [Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
+- [slides](https://www.slideshare.net/NehaBatra5/personal-branding-is-more-than-self-promotion-81439467)
+- [blog](https://builttoadapt.io/why-a-personal-brand-is-necessary-for-todays-developer-f0f18bfaa033)
+
+--
+
+## What 3 words do you want people to use to describe you?
+
+--
+
+## Write to 3 people you work with
+
+Ask them to use 3 words to describe you
+
+`"I'm in the middle of a talk, and I need you to tell me this. What are my top three qualities?"`
 
 --
 
@@ -137,23 +174,8 @@ controls: true
 - What strengthened and reinforced your roots?
 
 --
-# Branding Yourself
 
-[Branding is More Than Self Promotion - Neha Batra](https://www.safaribooksonline.com/library/view/oscon-2017-/9781491976227/video309578.html)
-[slides](https://www.slideshare.net/NehaBatra5/personal-branding-is-more-than-self-promotion-81439467)
-[blog](https://builttoadapt.io/why-a-personal-brand-is-necessary-for-todays-developer-f0f18bfaa033)
-
---
-
-# What 3 words do you want people to use to describe you?
-
---
-
-# Write to 3 people you work with
-
-- Ask them to use 3 words to describe you
-
-`I'm in the middle of a talk, and I need you to tell me this. What are my top three qualities?`
+# Remember Those Three Words?
 
 --
 
@@ -379,4 +401,4 @@ controls: true
 
 - [HelpMeAbstract.com](HelpMeAbstract.com)
 - [SpeakingEasy](http://speaking-easy.com/)
-- Rubric for Abstract (to get from AshleyH or AshleyPQP)
+- [Write/Speak/Code Conference Aug 1-4 NYC](https://www.writespeakcode.com/)

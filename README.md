@@ -1,3 +1,6 @@
+
+[Speaker Workshop Presentation slides](https://elstamey.github.io/wwcrdu-presentations/speaker_workshop.html)
+
 These slides will be published [here](https://elstamey.github.io/wwcrdu-presentations/speaker_workshop.html)
 
 To work on these locally, first install cleaver:
