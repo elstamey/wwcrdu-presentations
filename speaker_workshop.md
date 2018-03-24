@@ -425,7 +425,12 @@ Ask them to use 3 words to describe you
 
 # Resources
 
+- [Write/Speak/Code Conference Aug 1-4 NYC](https://www.writespeakcode.com/)
 - [HelpMeAbstract.com](http://HelpMeAbstract.com)
 - [SpeakingEasy](http://speaking-easy.com/)
 - [Technical Speaker Starter Kit](https://github.com/coryhouse/speaker-starter-kit)
-- [Write/Speak/Code Conference Aug 1-4 NYC](https://www.writespeakcode.com/)
+- [List of open CFPs](https://cfp-tracker.glitch.me/)
+- [Twitter account announcing CFPs](http://www.callbackwomen.com/)
+- [Women Who Tech](https://www.womenwhotech.com/resources)
+- [Join this list of Speakers](https://speakerinnen.org/)
+
