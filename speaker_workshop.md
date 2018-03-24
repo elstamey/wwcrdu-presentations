@@ -27,19 +27,19 @@ controls: true
 
 # What kind of shoes are you wearing?
 
---
+-- 
 
 # What is your favorite color?
 
---
+-- 
 
 # How many tattoos or piercings do you have?
 
---
+-- 
 
 # Where did you live when you took your first tech job?
 
---
+-- 
 
 # What is your favorite conference?
 
@@ -59,7 +59,7 @@ controls: true
 
 [Join us on Slack](https://docs.google.com/forms/d/e/1FAIpQLSctj9HJr-5yadDbKYygBYBfNUWmjgODlkp8lgLou26AedIkuQ/viewform)
 
-Join the `#raleigh-durham` channel
+Join the `#raleigh-durham` channel 
 
 --
 
@@ -240,7 +240,7 @@ Ask them to use 3 words to describe you
 # Be Specific
 
 - I’ve been a ____ for x years
-- I organize
+- I organize 
 - Recently I’ve been architecting ...
 
 --
@@ -323,7 +323,7 @@ Ask them to use 3 words to describe you
 
 # Acceptance Happens too
 
-![OG Party Parrot](OG%20Party%20Parrot.gif)
+![OG Party Parrot](OGPartyParrot.gif)
 
 ** You can still say no if plans have changed **
 --
@@ -341,7 +341,7 @@ Ask them to use 3 words to describe you
 - Timeframe
 - Proofread
 - [The Friendly Tester](https://twitter.com/friendlytester/status/962782536089956352)
-- [Ashley's tips for Abstracts](https://twitter.com/aahunsberger/status/977188376653844486)
+- [Ashley's tips for Abstracts](https://twitter.com/aahunsberger/status/977188376653844486) 
 
 --
 
