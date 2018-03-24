@@ -429,8 +429,16 @@ Ask them to use 3 words to describe you
 - [HelpMeAbstract.com](http://HelpMeAbstract.com)
 - [SpeakingEasy](http://speaking-easy.com/)
 - [Technical Speaker Starter Kit](https://github.com/coryhouse/speaker-starter-kit)
-- [List of open CFPs](https://cfp-tracker.glitch.me/)
-- [Twitter account announcing CFPs](http://www.callbackwomen.com/)
 - [Women Who Tech](https://www.womenwhotech.com/resources)
 - [Join this list of Speakers](https://speakerinnen.org/)
+- [Speaker bio on Lanyrd - possibly going down?](http://lanyrd.com/)
 
+--
+
+# List of Open CFPs
+
+- [List of open CFPs on Glitch](https://cfp-tracker.glitch.me/)
+- [Joind.in List of open CFPs](https://joind.in/event/callforpapers)
+- [Papercall](https://www.papercall.io/events)
+- [Twitter account announcing CFPs for underrepresented people](http://www.callbackwomen.com/)
+- [Lanyrd - possibly going down?](http://lanyrd.com/calls/)
