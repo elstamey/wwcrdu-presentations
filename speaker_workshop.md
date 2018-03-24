@@ -131,7 +131,7 @@ Ask them to use 3 words to describe you
 
 --
 
-# What Are Key/Unique Parts of Your Story?
+## What Are Key / Unique Parts of Your Story?
 
 --
 
@@ -203,17 +203,18 @@ Ask them to use 3 words to describe you
 
 - Write a short blurb (speaker bio, articles, etc)
 - Write a longer bio (website, blog, etc)
+
 - Use descriptive language
 - Use action verbs
 - Sound Excited!
 
 --
 
-# Final edits:
+# Final edits
 
 - Use the tools you have
 - Quantify with data
-- Invert the negatives
+- Turn negatives into positives
 - Give credit to personal experience
 
 --
@@ -231,6 +232,8 @@ Ask them to use 3 words to describe you
 
 - I build / I’ve built
 - I lead / I’ve lead
+- I design(ed)
+- I presented
 
 --
 
@@ -238,13 +241,11 @@ Ask them to use 3 words to describe you
 
 - I’ve been a ____ for x years
 - I organize
-- Recently I’ve been
+- Recently I’ve been architecting ...
 
 --
 
 # Be Kind
-
---
 
 --
 
@@ -254,6 +255,7 @@ Ask them to use 3 words to describe you
 - Things you want to learn`
 - A story about something you or your team did
 - Something you've accomplished
+- Something you failed at and what you learned from it
 
 --
 
@@ -282,6 +284,7 @@ Ask them to use 3 words to describe you
 - May provide hotel and airfare
 - May offer reimbursement up to an amount
   - Pay attention to how they will reimburse
+- Does the country require you to get a visa?
 
 --
 
@@ -303,6 +306,28 @@ Ask them to use 3 words to describe you
 
 --
 
+# REJECTION HAPPENS
+
+- Financial
+- Topic doesn't fit
+- A lot of submissions for few spots
+
+--
+
+# Tips to Handle Rejection
+
+- Don't publicly complain, whine or worse
+- You can ask for feedback on your submissions
+
+--
+
+# Acceptance Happens too
+
+![OG Party Parrot](OG%20Party%20Parrot.gif)
+
+** You can still say no if plans have changed **
+--
+
 # The abstract
 
 --
@@ -315,7 +340,8 @@ Ask them to use 3 words to describe you
 - Readability
 - Timeframe
 - Proofread
-- https://twitter.com/friendlytester/status/962782536089956352 
+- [The Friendly Tester](https://twitter.com/friendlytester/status/962782536089956352)
+- [Ashley's tips for Abstracts](https://twitter.com/aahunsberger/status/977188376653844486)
 
 --
 
@@ -366,7 +392,7 @@ Ask them to use 3 words to describe you
 --
 # Write a talk proposal!
 
-- 3 minutes to brainstorom a proposal for a 30-minute presentation
+- 3 minutes to brainstorm a proposal for a 30-minute presentation
 - Start writing proposal, following worksheet
 - 5 minutes
 
